@@ -1,2 +1,2 @@
 # hello-world
-Primer intento en GitHub con otra cuenta
+Primera edicion del readme
