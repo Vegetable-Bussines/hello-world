@@ -1,4 +1,4 @@
 # hello-world
 Segunda edicion del readme
 
-Incorcoraremos un pagina web, basicamente eso.
+Se creara una pagina web para publicar en facebook, debe contener contenido
