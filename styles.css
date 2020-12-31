@@ -10,8 +10,8 @@ body {
 	border-top-left-radius: 5px;
 }
 
-.header {
-	font-family: "Fira Mono Regular", consolas;
+h1 {
+	font-family: "Fira Mono", consolas;
 	margin-bottom: 0px;
 }
 
@@ -19,6 +19,7 @@ body {
 	color: #555;
 	font-size: 1.2em;
 	letter-spacing: 3px;
+	text-decoration: underline;
 }
 
 .nav {
@@ -26,20 +27,50 @@ body {
 	border-top: 4px solid #90CAF9;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	padding-top: 10px; 
-
-
+	padding: 10px; 
 }
 
 .nav>ul {
+	margin: 0px;
+	padding: 0px;
 	list-style: none;
-	padding-left: 10px;
 }
 
 .nav>ul>li {
+	display: inline;
+}
+
+
+.nav>ul>li>a{
 	padding: 8px;
 	background-color: #007bff;
 	color: white;
-	display: inline;
 	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.8s;
+	transition: padding 0.3s;
+	/*transition: margin 0.3s;*/
+}
+
+.nav>ul>li>a:hover {
+	transition: padding 0.3s;
+	padding: 6px 1.05em 6px 1.05em;
+	background-color: #ffffff;
+	color: #007bff;
+	border: 2px solid #007bff;
+}
+
+.re-mark {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.container {
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+
+.btn-timido {
+	position: absolute;
 }
