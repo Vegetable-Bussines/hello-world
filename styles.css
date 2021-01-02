@@ -11,7 +11,6 @@ body {
 }
 
 h1 {
-	font-family: "Fira Mono", consolas;
 	margin-bottom: 0px;
 }
 
@@ -23,25 +22,24 @@ h1 {
 }
 
 .nav {
-	background-color: #64B5F6;
-	border-top: 4px solid #90CAF9;
+	background-color: #64b5f6;
+	border-top: 4px solid #90caf9;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	padding: 10px; 
+	padding: 10px;
 }
 
-.nav>ul {
+.nav > ul {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 }
 
-.nav>ul>li {
+.nav > ul > li {
 	display: inline;
 }
 
-
-.nav>ul>li>a{
+.nav > ul > li > a {
 	padding: 8px;
 	background-color: #007bff;
 	color: white;
@@ -52,7 +50,7 @@ h1 {
 	/*transition: margin 0.3s;*/
 }
 
-.nav>ul>li>a:hover {
+.nav > ul > li > a:hover {
 	transition: padding 0.3s;
 	padding: 6px 1.05em 6px 1.05em;
 	background-color: #ffffff;
